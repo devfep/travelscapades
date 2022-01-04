@@ -1,3 +1,4 @@
+
 #hero {
     height: 800px;
     background-image: url('/images/places/F&J.jpeg');
@@ -16,7 +17,9 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+       
 }
+
 
 #hero-content h1 {
     color: white;
@@ -51,4 +54,54 @@
 
 #hero-content a:hover, #hero-content a:active {
     background-color: rgb(255,210, 0);
+}
+
+#highlights {
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(179,164,138), rgb(92,94,1));
+}
+
+
+#highlights h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(59,65,64);
+    margin: 24px 0;
+}
+
+#destinations {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+
+
+.destination {
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+
+
+.destination p {
+    text-align: center;
+    font-size: 24px;
+    color: rgb(124,123,123);
+    margin: 20px 0;
+}
+
+.destination img {
+    height: 200px;
+    width: 250px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+.destination strong {
+    color: rgb(0, 160, 117);
 }
